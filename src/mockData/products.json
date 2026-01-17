@@ -1,0 +1,1553 @@
+[
+  {
+    "id": "p001",
+    "name": "Fresh Organic Bananas",
+    "slug": "fresh-organic-bananas",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v001-1", "name": "500g (5-6 pcs)", "mrp": 45, "price": 39, "inStock": true },
+      { "id": "v001-2", "name": "1 kg (10-12 pcs)", "mrp": 85, "price": 69, "inStock": true }
+    ],
+    "tags": ["bestseller", "fresh"],
+    "highlights": {
+      "Type": "Organic",
+      "Origin": "Karnataka",
+      "Shelf Life": "3-4 days"
+    },
+    "description": "Farm fresh organic bananas sourced directly from Karnataka farms. Rich in potassium and natural sugars.",
+    "compliance": {
+      "fssai": "10012345678901",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p002",
+    "name": "Red Apples Premium",
+    "slug": "red-apples-premium",
+    "brand": "Himalayan Harvest",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1510392/pexels-photo-1510392.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v002-1", "name": "4 pcs", "mrp": 180, "price": 149, "inStock": true },
+      { "id": "v002-2", "name": "1 kg", "mrp": 280, "price": 229, "inStock": true }
+    ],
+    "tags": ["bestseller", "new"],
+    "highlights": {
+      "Type": "Shimla Apples",
+      "Origin": "Himachal Pradesh",
+      "Shelf Life": "7-10 days"
+    },
+    "description": "Premium red apples from the orchards of Himachal Pradesh. Crisp, sweet, and perfect for daily consumption.",
+    "compliance": {
+      "fssai": "10012345678902",
+      "seller": "Himalayan Harvest Co",
+      "address": "Shimla, Himachal Pradesh"
+    }
+  },
+  {
+    "id": "p003",
+    "name": "Fresh Tomatoes",
+    "slug": "fresh-tomatoes",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v003-1", "name": "500g", "mrp": 35, "price": 29, "inStock": true },
+      { "id": "v003-2", "name": "1 kg", "mrp": 65, "price": 49, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Hybrid",
+      "Origin": "Maharashtra",
+      "Shelf Life": "4-5 days"
+    },
+    "description": "Fresh and juicy tomatoes perfect for cooking. Handpicked for quality.",
+    "compliance": {
+      "fssai": "10012345678903",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Nashik, Maharashtra"
+    }
+  },
+  {
+    "id": "p004",
+    "name": "Green Capsicum",
+    "slug": "green-capsicum",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/128536/pexels-photo-128536.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v004-1", "name": "250g (2-3 pcs)", "mrp": 45, "price": 35, "inStock": true }
+    ],
+    "tags": ["under99"],
+    "highlights": {
+      "Type": "Fresh",
+      "Origin": "Karnataka",
+      "Shelf Life": "5-7 days"
+    },
+    "description": "Fresh green capsicum, perfect for salads and cooking.",
+    "compliance": {
+      "fssai": "10012345678904",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Bangalore, Karnataka"
+    }
+  },
+  {
+    "id": "p005",
+    "name": "Fresh Spinach",
+    "slug": "fresh-spinach",
+    "brand": "Green Valley",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v005-1", "name": "200g bunch", "mrp": 30, "price": 25, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Organic",
+      "Origin": "Local Farm",
+      "Shelf Life": "2-3 days"
+    },
+    "description": "Fresh organic spinach leaves, rich in iron and vitamins.",
+    "compliance": {
+      "fssai": "10012345678905",
+      "seller": "Green Valley Farms",
+      "address": "Pune, Maharashtra"
+    }
+  },
+  {
+    "id": "p006",
+    "name": "Amul Taaza Toned Milk",
+    "slug": "amul-taaza-toned-milk",
+    "brand": "Amul",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v006-1", "name": "500ml", "mrp": 28, "price": 28, "inStock": true },
+      { "id": "v006-2", "name": "1L", "mrp": 54, "price": 54, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Fat Content": "3%",
+      "Type": "Toned Milk",
+      "Storage": "Refrigerate"
+    },
+    "description": "Amul Taaza toned milk, pasteurized and homogenized for purity.",
+    "compliance": {
+      "fssai": "10012345678906",
+      "seller": "Gujarat Cooperative Milk",
+      "address": "Anand, Gujarat"
+    }
+  },
+  {
+    "id": "p007",
+    "name": "Amul Butter",
+    "slug": "amul-butter",
+    "brand": "Amul",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/5765/fork-butter-cheese-milk.jpg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v007-1", "name": "100g", "mrp": 56, "price": 52, "inStock": true },
+      { "id": "v007-2", "name": "500g", "mrp": 270, "price": 255, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Salted Butter",
+      "Fat Content": "80%",
+      "Storage": "Refrigerate"
+    },
+    "description": "India's favorite butter. Rich, creamy, and delicious.",
+    "compliance": {
+      "fssai": "10012345678907",
+      "seller": "Gujarat Cooperative Milk",
+      "address": "Anand, Gujarat"
+    }
+  },
+  {
+    "id": "p008",
+    "name": "Mother Dairy Curd",
+    "slug": "mother-dairy-curd",
+    "brand": "Mother Dairy",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/4397899/pexels-photo-4397899.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v008-1", "name": "400g", "mrp": 40, "price": 38, "inStock": true },
+      { "id": "v008-2", "name": "1kg", "mrp": 85, "price": 80, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Fresh Curd",
+      "Fat Content": "3%",
+      "Storage": "Refrigerate"
+    },
+    "description": "Fresh and creamy curd made from toned milk.",
+    "compliance": {
+      "fssai": "10012345678908",
+      "seller": "Mother Dairy",
+      "address": "Delhi"
+    }
+  },
+  {
+    "id": "p009",
+    "name": "Britannia Cheese Slices",
+    "slug": "britannia-cheese-slices",
+    "brand": "Britannia",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v009-1", "name": "100g (5 slices)", "mrp": 85, "price": 79, "inStock": true },
+      { "id": "v009-2", "name": "200g (10 slices)", "mrp": 165, "price": 149, "inStock": true }
+    ],
+    "tags": ["new"],
+    "highlights": {
+      "Type": "Processed Cheese",
+      "Slices": "Ready to use",
+      "Storage": "Refrigerate"
+    },
+    "description": "Premium cheese slices perfect for sandwiches and burgers.",
+    "compliance": {
+      "fssai": "10012345678909",
+      "seller": "Britannia Industries",
+      "address": "Bangalore, Karnataka"
+    }
+  },
+  {
+    "id": "p010",
+    "name": "Kellogg's Corn Flakes",
+    "slug": "kelloggs-corn-flakes",
+    "brand": "Kellogg's",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/135525/pexels-photo-135525.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v010-1", "name": "250g", "mrp": 125, "price": 110, "inStock": true },
+      { "id": "v010-2", "name": "475g", "mrp": 225, "price": 199, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Breakfast Cereal",
+      "Fortified": "Iron & Vitamins",
+      "Serving": "With cold milk"
+    },
+    "description": "The original and best corn flakes for a healthy breakfast.",
+    "compliance": {
+      "fssai": "10012345678910",
+      "seller": "Kellogg India Pvt Ltd",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p011",
+    "name": "Lay's Classic Salted",
+    "slug": "lays-classic-salted",
+    "brand": "Lay's",
+    "categoryId": "snacks-munchies",
+    "images": [
+      "https://images.pexels.com/photos/1618950/pexels-photo-1618950.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v011-1", "name": "52g", "mrp": 20, "price": 20, "inStock": true },
+      { "id": "v011-2", "name": "115g", "mrp": 50, "price": 45, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Flavor": "Classic Salted",
+      "Type": "Potato Chips",
+      "Vegetarian": "Yes"
+    },
+    "description": "Crispy and crunchy potato chips with the perfect amount of salt.",
+    "compliance": {
+      "fssai": "10012345678911",
+      "seller": "PepsiCo India",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p012",
+    "name": "Kurkure Masala Munch",
+    "slug": "kurkure-masala-munch",
+    "brand": "Kurkure",
+    "categoryId": "snacks-munchies",
+    "images": [
+      "https://images.pexels.com/photos/1618959/pexels-photo-1618959.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v012-1", "name": "90g", "mrp": 20, "price": 20, "inStock": true },
+      { "id": "v012-2", "name": "135g", "mrp": 30, "price": 30, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Flavor": "Masala Munch",
+      "Type": "Corn Puffs",
+      "Vegetarian": "Yes"
+    },
+    "description": "Crunchy corn snack with tangy masala flavor.",
+    "compliance": {
+      "fssai": "10012345678912",
+      "seller": "PepsiCo India",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p013",
+    "name": "Haldiram's Aloo Bhujia",
+    "slug": "haldirams-aloo-bhujia",
+    "brand": "Haldiram's",
+    "categoryId": "snacks-munchies",
+    "images": [
+      "https://images.pexels.com/photos/5848048/pexels-photo-5848048.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v013-1", "name": "200g", "mrp": 68, "price": 62, "inStock": true },
+      { "id": "v013-2", "name": "400g", "mrp": 130, "price": 119, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Namkeen",
+      "Main Ingredient": "Potato & Gram Flour",
+      "Vegetarian": "Yes"
+    },
+    "description": "Traditional Indian namkeen made with potato and spices.",
+    "compliance": {
+      "fssai": "10012345678913",
+      "seller": "Haldiram's",
+      "address": "Nagpur, Maharashtra"
+    }
+  },
+  {
+    "id": "p014",
+    "name": "Cadbury Dairy Milk",
+    "slug": "cadbury-dairy-milk",
+    "brand": "Cadbury",
+    "categoryId": "snacks-munchies",
+    "images": [
+      "https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v014-1", "name": "50g", "mrp": 45, "price": 42, "inStock": true },
+      { "id": "v014-2", "name": "110g", "mrp": 90, "price": 85, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Milk Chocolate",
+      "Cocoa": "Premium",
+      "Vegetarian": "Yes"
+    },
+    "description": "The classic milk chocolate loved by all ages.",
+    "compliance": {
+      "fssai": "10012345678914",
+      "seller": "Mondelez India",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p015",
+    "name": "Parle-G Biscuits",
+    "slug": "parle-g-biscuits",
+    "brand": "Parle",
+    "categoryId": "bakery-biscuits",
+    "images": [
+      "https://images.pexels.com/photos/890577/pexels-photo-890577.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v015-1", "name": "140g", "mrp": 20, "price": 20, "inStock": true },
+      { "id": "v015-2", "name": "800g Family Pack", "mrp": 85, "price": 80, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Glucose Biscuits",
+      "Vegetarian": "Yes",
+      "Energy": "High"
+    },
+    "description": "India's most loved biscuit. Perfect with tea or milk.",
+    "compliance": {
+      "fssai": "10012345678915",
+      "seller": "Parle Products",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p016",
+    "name": "Coca-Cola",
+    "slug": "coca-cola",
+    "brand": "Coca-Cola",
+    "categoryId": "cold-drinks",
+    "images": [
+      "https://images.pexels.com/photos/2668308/pexels-photo-2668308.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v016-1", "name": "300ml", "mrp": 40, "price": 38, "inStock": true },
+      { "id": "v016-2", "name": "750ml", "mrp": 45, "price": 42, "inStock": true },
+      { "id": "v016-3", "name": "1.25L", "mrp": 72, "price": 68, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Carbonated Soft Drink",
+      "Flavor": "Original",
+      "Serve": "Chilled"
+    },
+    "description": "The original taste of happiness. Best served chilled.",
+    "compliance": {
+      "fssai": "10012345678916",
+      "seller": "Hindustan Coca-Cola",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p017",
+    "name": "Real Mixed Fruit Juice",
+    "slug": "real-mixed-fruit-juice",
+    "brand": "Real",
+    "categoryId": "cold-drinks",
+    "images": [
+      "https://images.pexels.com/photos/1194030/pexels-photo-1194030.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v017-1", "name": "200ml", "mrp": 25, "price": 22, "inStock": true },
+      { "id": "v017-2", "name": "1L", "mrp": 110, "price": 99, "inStock": true }
+    ],
+    "tags": ["new", "under99"],
+    "highlights": {
+      "Type": "Fruit Juice",
+      "Flavor": "Mixed Fruit",
+      "No Added Sugar": "Yes"
+    },
+    "description": "100% fruit juice blend with no added sugar.",
+    "compliance": {
+      "fssai": "10012345678917",
+      "seller": "Dabur India",
+      "address": "Ghaziabad, UP"
+    }
+  },
+  {
+    "id": "p018",
+    "name": "Maggi 2-Minute Noodles",
+    "slug": "maggi-2-minute-noodles",
+    "brand": "Maggi",
+    "categoryId": "instant-food",
+    "images": [
+      "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v018-1", "name": "70g Single", "mrp": 14, "price": 14, "inStock": true },
+      { "id": "v018-2", "name": "280g (4 Pack)", "mrp": 52, "price": 48, "inStock": true },
+      { "id": "v018-3", "name": "560g (8 Pack)", "mrp": 104, "price": 96, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Instant Noodles",
+      "Cooking Time": "2 Minutes",
+      "Vegetarian": "Yes"
+    },
+    "description": "India's favorite instant noodles. Ready in just 2 minutes!",
+    "compliance": {
+      "fssai": "10012345678918",
+      "seller": "Nestle India",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p019",
+    "name": "McCain French Fries",
+    "slug": "mccain-french-fries",
+    "brand": "McCain",
+    "categoryId": "instant-food",
+    "images": [
+      "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v019-1", "name": "420g", "mrp": 185, "price": 169, "inStock": true },
+      { "id": "v019-2", "name": "750g", "mrp": 299, "price": 279, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Frozen Fries",
+      "Cooking": "Air Fry or Deep Fry",
+      "Storage": "Freezer"
+    },
+    "description": "Crispy and golden French fries. Perfect for snacking.",
+    "compliance": {
+      "fssai": "10012345678919",
+      "seller": "McCain Foods India",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p020",
+    "name": "Tata Tea Gold",
+    "slug": "tata-tea-gold",
+    "brand": "Tata Tea",
+    "categoryId": "tea-coffee",
+    "images": [
+      "https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v020-1", "name": "250g", "mrp": 145, "price": 135, "inStock": true },
+      { "id": "v020-2", "name": "500g", "mrp": 280, "price": 259, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "CTC Tea",
+      "Blend": "15% Long Leaves",
+      "Origin": "Assam"
+    },
+    "description": "Premium tea blend with 15% long leaves for extra taste.",
+    "compliance": {
+      "fssai": "10012345678920",
+      "seller": "Tata Consumer Products",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p021",
+    "name": "Nescafe Classic Coffee",
+    "slug": "nescafe-classic-coffee",
+    "brand": "Nescafe",
+    "categoryId": "tea-coffee",
+    "images": [
+      "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v021-1", "name": "50g", "mrp": 165, "price": 155, "inStock": true },
+      { "id": "v021-2", "name": "100g", "mrp": 315, "price": 295, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Instant Coffee",
+      "Roast": "Medium",
+      "100% Coffee": "Yes"
+    },
+    "description": "Pure soluble coffee granules for the perfect cup every time.",
+    "compliance": {
+      "fssai": "10012345678921",
+      "seller": "Nestle India",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p022",
+    "name": "Aashirvaad Atta",
+    "slug": "aashirvaad-atta",
+    "brand": "Aashirvaad",
+    "categoryId": "atta-rice",
+    "images": [
+      "https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v022-1", "name": "1kg", "mrp": 52, "price": 48, "inStock": true },
+      { "id": "v022-2", "name": "5kg", "mrp": 255, "price": 235, "inStock": true },
+      { "id": "v022-3", "name": "10kg", "mrp": 495, "price": 459, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Whole Wheat Atta",
+      "Fiber": "High",
+      "0% Maida": "Yes"
+    },
+    "description": "100% whole wheat atta for soft rotis every time.",
+    "compliance": {
+      "fssai": "10012345678922",
+      "seller": "ITC Limited",
+      "address": "Kolkata, West Bengal"
+    }
+  },
+  {
+    "id": "p023",
+    "name": "India Gate Basmati Rice",
+    "slug": "india-gate-basmati-rice",
+    "brand": "India Gate",
+    "categoryId": "atta-rice",
+    "images": [
+      "https://images.pexels.com/photos/4110257/pexels-photo-4110257.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v023-1", "name": "1kg", "mrp": 185, "price": 169, "inStock": true },
+      { "id": "v023-2", "name": "5kg", "mrp": 875, "price": 799, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Basmati Rice",
+      "Grain Length": "Extra Long",
+      "Aged": "2 Years"
+    },
+    "description": "Premium aged basmati rice with extra long grains.",
+    "compliance": {
+      "fssai": "10012345678923",
+      "seller": "KRBL Limited",
+      "address": "Delhi"
+    }
+  },
+  {
+    "id": "p024",
+    "name": "Toor Dal",
+    "slug": "toor-dal",
+    "brand": "24 Mantra",
+    "categoryId": "atta-rice",
+    "images": [
+      "https://images.pexels.com/photos/4198936/pexels-photo-4198936.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v024-1", "name": "500g", "mrp": 89, "price": 79, "inStock": true },
+      { "id": "v024-2", "name": "1kg", "mrp": 169, "price": 149, "inStock": true }
+    ],
+    "tags": ["new"],
+    "highlights": {
+      "Type": "Organic Toor Dal",
+      "Protein": "High",
+      "Chemical Free": "Yes"
+    },
+    "description": "Organic toor dal, rich in protein and nutrients.",
+    "compliance": {
+      "fssai": "10012345678924",
+      "seller": "24 Mantra Organic",
+      "address": "Hyderabad, Telangana"
+    }
+  },
+  {
+    "id": "p025",
+    "name": "Fortune Sunflower Oil",
+    "slug": "fortune-sunflower-oil",
+    "brand": "Fortune",
+    "categoryId": "masala-oil",
+    "images": [
+      "https://images.pexels.com/photos/1022385/pexels-photo-1022385.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v025-1", "name": "1L", "mrp": 165, "price": 149, "inStock": true },
+      { "id": "v025-2", "name": "5L", "mrp": 785, "price": 729, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Refined Sunflower Oil",
+      "Vitamin E": "Rich",
+      "Heart Healthy": "Yes"
+    },
+    "description": "Light and healthy sunflower oil for everyday cooking.",
+    "compliance": {
+      "fssai": "10012345678925",
+      "seller": "Adani Wilmar",
+      "address": "Ahmedabad, Gujarat"
+    }
+  },
+  {
+    "id": "p026",
+    "name": "MDH Garam Masala",
+    "slug": "mdh-garam-masala",
+    "brand": "MDH",
+    "categoryId": "masala-oil",
+    "images": [
+      "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v026-1", "name": "50g", "mrp": 55, "price": 49, "inStock": true },
+      { "id": "v026-2", "name": "100g", "mrp": 105, "price": 95, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Blended Spice",
+      "Ingredients": "11 Spices",
+      "No Preservatives": "Yes"
+    },
+    "description": "Authentic blend of 11 spices for rich Indian flavor.",
+    "compliance": {
+      "fssai": "10012345678926",
+      "seller": "MDH Limited",
+      "address": "Delhi"
+    }
+  },
+  {
+    "id": "p027",
+    "name": "Tata Salt",
+    "slug": "tata-salt",
+    "brand": "Tata",
+    "categoryId": "masala-oil",
+    "images": [
+      "https://images.pexels.com/photos/6941024/pexels-photo-6941024.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v027-1", "name": "1kg", "mrp": 28, "price": 26, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Iodized Salt",
+      "Vacuum Evaporated": "Yes",
+      "Purity": "99.5%"
+    },
+    "description": "India's first iodized salt. Desh ka namak.",
+    "compliance": {
+      "fssai": "10012345678927",
+      "seller": "Tata Consumer Products",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p028",
+    "name": "Dove Soap Bar",
+    "slug": "dove-soap-bar",
+    "brand": "Dove",
+    "categoryId": "personal-care",
+    "images": [
+      "https://images.pexels.com/photos/3735657/pexels-photo-3735657.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v028-1", "name": "100g", "mrp": 65, "price": 58, "inStock": true },
+      { "id": "v028-2", "name": "100g x 3", "mrp": 182, "price": 165, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Beauty Bar",
+      "Moisturizing": "1/4 Cream",
+      "Skin Type": "All"
+    },
+    "description": "Moisturizing beauty bar with 1/4 moisturizing cream.",
+    "compliance": {
+      "fssai": "10012345678928",
+      "seller": "Hindustan Unilever",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p029",
+    "name": "Colgate MaxFresh Toothpaste",
+    "slug": "colgate-maxfresh-toothpaste",
+    "brand": "Colgate",
+    "categoryId": "personal-care",
+    "images": [
+      "https://images.pexels.com/photos/3737596/pexels-photo-3737596.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v029-1", "name": "80g", "mrp": 68, "price": 62, "inStock": true },
+      { "id": "v029-2", "name": "150g", "mrp": 115, "price": 105, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Gel Toothpaste",
+      "Flavor": "Cooling Crystals",
+      "Fresh Breath": "10x Longer"
+    },
+    "description": "Gel toothpaste with cooling crystals for fresh breath.",
+    "compliance": {
+      "fssai": "10012345678929",
+      "seller": "Colgate-Palmolive",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p030",
+    "name": "Head & Shoulders Shampoo",
+    "slug": "head-shoulders-shampoo",
+    "brand": "Head & Shoulders",
+    "categoryId": "personal-care",
+    "images": [
+      "https://images.pexels.com/photos/3735149/pexels-photo-3735149.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v030-1", "name": "180ml", "mrp": 210, "price": 189, "inStock": true },
+      { "id": "v030-2", "name": "340ml", "mrp": 380, "price": 349, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Anti-Dandruff",
+      "For": "All Hair Types",
+      "Active": "Zinc Pyrithione"
+    },
+    "description": "Clinically proven anti-dandruff shampoo.",
+    "compliance": {
+      "fssai": "10012345678930",
+      "seller": "P&G India",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p031",
+    "name": "Surf Excel Liquid Detergent",
+    "slug": "surf-excel-liquid-detergent",
+    "brand": "Surf Excel",
+    "categoryId": "cleaning",
+    "images": [
+      "https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v031-1", "name": "500ml", "mrp": 175, "price": 159, "inStock": true },
+      { "id": "v031-2", "name": "1L", "mrp": 330, "price": 299, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Liquid Detergent",
+      "For": "Top & Front Load",
+      "Stain Removal": "Tough Stains"
+    },
+    "description": "Powerful liquid detergent for machine wash.",
+    "compliance": {
+      "fssai": "10012345678931",
+      "seller": "Hindustan Unilever",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p032",
+    "name": "Lizol Floor Cleaner",
+    "slug": "lizol-floor-cleaner",
+    "brand": "Lizol",
+    "categoryId": "cleaning",
+    "images": [
+      "https://images.pexels.com/photos/4239012/pexels-photo-4239012.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v032-1", "name": "500ml", "mrp": 115, "price": 105, "inStock": true },
+      { "id": "v032-2", "name": "1L", "mrp": 215, "price": 195, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Disinfectant",
+      "Kills Germs": "99.9%",
+      "Fragrance": "Citrus"
+    },
+    "description": "Floor cleaner that kills 99.9% germs.",
+    "compliance": {
+      "fssai": "10012345678932",
+      "seller": "Reckitt Benckiser",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p033",
+    "name": "Vim Dishwash Gel",
+    "slug": "vim-dishwash-gel",
+    "brand": "Vim",
+    "categoryId": "cleaning",
+    "images": [
+      "https://images.pexels.com/photos/4107120/pexels-photo-4107120.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v033-1", "name": "500ml", "mrp": 105, "price": 95, "inStock": true },
+      { "id": "v033-2", "name": "750ml", "mrp": 149, "price": 135, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Liquid Dishwash",
+      "Grease Cutting": "100x",
+      "Lemon": "Fresh"
+    },
+    "description": "Powerful dishwash gel that cuts through grease.",
+    "compliance": {
+      "fssai": "10012345678933",
+      "seller": "Hindustan Unilever",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p034",
+    "name": "Pampers Baby Diapers",
+    "slug": "pampers-baby-diapers",
+    "brand": "Pampers",
+    "categoryId": "baby-care",
+    "images": [
+      "https://images.pexels.com/photos/3845456/pexels-photo-3845456.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v034-1", "name": "Small (46 pcs)", "mrp": 899, "price": 799, "inStock": true },
+      { "id": "v034-2", "name": "Medium (38 pcs)", "mrp": 899, "price": 799, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Pant Style",
+      "Absorption": "12 Hours",
+      "Soft": "Cotton-like"
+    },
+    "description": "All night dryness with up to 12 hours absorption.",
+    "compliance": {
+      "fssai": "10012345678934",
+      "seller": "P&G India",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p035",
+    "name": "Johnson's Baby Powder",
+    "slug": "johnsons-baby-powder",
+    "brand": "Johnson's",
+    "categoryId": "baby-care",
+    "images": [
+      "https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v035-1", "name": "100g", "mrp": 110, "price": 99, "inStock": true },
+      { "id": "v035-2", "name": "200g", "mrp": 195, "price": 179, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Baby Powder",
+      "Gentle": "Clinically Proven",
+      "Fragrance": "Mild"
+    },
+    "description": "Gentle powder that keeps baby's skin soft and smooth.",
+    "compliance": {
+      "fssai": "10012345678935",
+      "seller": "Johnson & Johnson",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p036",
+    "name": "Oranges Fresh",
+    "slug": "oranges-fresh",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v036-1", "name": "1 kg", "mrp": 120, "price": 99, "inStock": true }
+    ],
+    "tags": ["fresh", "under99"],
+    "highlights": {
+      "Type": "Nagpur Oranges",
+      "Vitamin C": "Rich",
+      "Shelf Life": "5-7 days"
+    },
+    "description": "Sweet and juicy Nagpur oranges, rich in vitamin C.",
+    "compliance": {
+      "fssai": "10012345678936",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Nagpur, Maharashtra"
+    }
+  },
+  {
+    "id": "p037",
+    "name": "Onions",
+    "slug": "onions",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/175414/pexels-photo-175414.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v037-1", "name": "1 kg", "mrp": 45, "price": 35, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Red Onions",
+      "Origin": "Maharashtra",
+      "Shelf Life": "10-15 days"
+    },
+    "description": "Fresh red onions, essential for every kitchen.",
+    "compliance": {
+      "fssai": "10012345678937",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Nashik, Maharashtra"
+    }
+  },
+  {
+    "id": "p038",
+    "name": "Potatoes",
+    "slug": "potatoes",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v038-1", "name": "1 kg", "mrp": 40, "price": 32, "inStock": true },
+      { "id": "v038-2", "name": "2 kg", "mrp": 75, "price": 59, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Fresh Potatoes",
+      "Origin": "Uttar Pradesh",
+      "Shelf Life": "15-20 days"
+    },
+    "description": "Fresh potatoes perfect for curries, fries, and more.",
+    "compliance": {
+      "fssai": "10012345678938",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Agra, UP"
+    }
+  },
+  {
+    "id": "p039",
+    "name": "Britannia Marie Gold",
+    "slug": "britannia-marie-gold",
+    "brand": "Britannia",
+    "categoryId": "bakery-biscuits",
+    "images": [
+      "https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v039-1", "name": "250g", "mrp": 45, "price": 42, "inStock": true },
+      { "id": "v039-2", "name": "600g", "mrp": 99, "price": 89, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Marie Biscuits",
+      "Light": "Low Fat",
+      "Vegetarian": "Yes"
+    },
+    "description": "Light and crispy Marie biscuits perfect with tea.",
+    "compliance": {
+      "fssai": "10012345678939",
+      "seller": "Britannia Industries",
+      "address": "Bangalore, Karnataka"
+    }
+  },
+  {
+    "id": "p040",
+    "name": "Dark Fantasy Choco Fills",
+    "slug": "dark-fantasy-choco-fills",
+    "brand": "Sunfeast",
+    "categoryId": "bakery-biscuits",
+    "images": [
+      "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v040-1", "name": "75g", "mrp": 40, "price": 38, "inStock": true },
+      { "id": "v040-2", "name": "150g", "mrp": 75, "price": 69, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Cream Filled",
+      "Chocolate": "Rich Center",
+      "Vegetarian": "Yes"
+    },
+    "description": "Cookies with luscious chocolate cream filling.",
+    "compliance": {
+      "fssai": "10012345678940",
+      "seller": "ITC Limited",
+      "address": "Kolkata, West Bengal"
+    }
+  },
+  {
+    "id": "p041",
+    "name": "Fresh Bread Loaf",
+    "slug": "fresh-bread-loaf",
+    "brand": "Modern",
+    "categoryId": "bakery-biscuits",
+    "images": [
+      "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v041-1", "name": "400g", "mrp": 42, "price": 40, "inStock": true }
+    ],
+    "tags": ["fresh", "under99"],
+    "highlights": {
+      "Type": "White Bread",
+      "Fresh": "Baked Daily",
+      "Vegetarian": "Yes"
+    },
+    "description": "Soft and fresh white bread, baked daily.",
+    "compliance": {
+      "fssai": "10012345678941",
+      "seller": "Modern Foods",
+      "address": "Delhi"
+    }
+  },
+  {
+    "id": "p042",
+    "name": "Sprite",
+    "slug": "sprite",
+    "brand": "Sprite",
+    "categoryId": "cold-drinks",
+    "images": [
+      "https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v042-1", "name": "300ml", "mrp": 40, "price": 38, "inStock": true },
+      { "id": "v042-2", "name": "750ml", "mrp": 45, "price": 42, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Lemon Lime Soda",
+      "Caffeine": "Free",
+      "Serve": "Chilled"
+    },
+    "description": "Clear, crisp, lemon-lime taste. Seedhi baat, no bakwaas.",
+    "compliance": {
+      "fssai": "10012345678942",
+      "seller": "Hindustan Coca-Cola",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p043",
+    "name": "Bisleri Water",
+    "slug": "bisleri-water",
+    "brand": "Bisleri",
+    "categoryId": "cold-drinks",
+    "images": [
+      "https://images.pexels.com/photos/327090/pexels-photo-327090.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v043-1", "name": "500ml", "mrp": 20, "price": 20, "inStock": true },
+      { "id": "v043-2", "name": "1L", "mrp": 22, "price": 22, "inStock": true },
+      { "id": "v043-3", "name": "2L", "mrp": 35, "price": 35, "inStock": true }
+    ],
+    "tags": ["under99"],
+    "highlights": {
+      "Type": "Mineral Water",
+      "TDS": "Balanced",
+      "Purification": "10 Step"
+    },
+    "description": "Pure drinking water with 10-step purification process.",
+    "compliance": {
+      "fssai": "10012345678943",
+      "seller": "Bisleri International",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p044",
+    "name": "MTR Poha",
+    "slug": "mtr-poha",
+    "brand": "MTR",
+    "categoryId": "instant-food",
+    "images": [
+      "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v044-1", "name": "160g", "mrp": 45, "price": 42, "inStock": true }
+    ],
+    "tags": ["new", "under99"],
+    "highlights": {
+      "Type": "Ready to Eat",
+      "Preparation": "Just Add Water",
+      "Vegetarian": "Yes"
+    },
+    "description": "Instant poha mix, ready in minutes.",
+    "compliance": {
+      "fssai": "10012345678944",
+      "seller": "MTR Foods",
+      "address": "Bangalore, Karnataka"
+    }
+  },
+  {
+    "id": "p045",
+    "name": "Paneer Fresh",
+    "slug": "paneer-fresh",
+    "brand": "Amul",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/4087609/pexels-photo-4087609.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v045-1", "name": "200g", "mrp": 95, "price": 85, "inStock": true },
+      { "id": "v045-2", "name": "500g", "mrp": 225, "price": 205, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Fresh Paneer",
+      "Protein": "High",
+      "Storage": "Refrigerate"
+    },
+    "description": "Fresh and soft paneer made from pure milk.",
+    "compliance": {
+      "fssai": "10012345678945",
+      "seller": "Gujarat Cooperative Milk",
+      "address": "Anand, Gujarat"
+    }
+  },
+  {
+    "id": "p046",
+    "name": "Eggs White",
+    "slug": "eggs-white",
+    "brand": "Farm Fresh",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v046-1", "name": "6 pcs", "mrp": 50, "price": 45, "inStock": true },
+      { "id": "v046-2", "name": "12 pcs", "mrp": 95, "price": 85, "inStock": true },
+      { "id": "v046-3", "name": "30 pcs", "mrp": 225, "price": 199, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Farm Fresh Eggs",
+      "Protein": "High",
+      "Storage": "Refrigerate"
+    },
+    "description": "Farm fresh white eggs, rich in protein.",
+    "compliance": {
+      "fssai": "10012345678946",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Pune, Maharashtra"
+    }
+  },
+  {
+    "id": "p047",
+    "name": "Greek Yogurt",
+    "slug": "greek-yogurt",
+    "brand": "Epigamia",
+    "categoryId": "dairy-breakfast",
+    "images": [
+      "https://images.pexels.com/photos/1775044/pexels-photo-1775044.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v047-1", "name": "90g Strawberry", "mrp": 55, "price": 49, "inStock": true },
+      { "id": "v047-2", "name": "90g Mango", "mrp": 55, "price": 49, "inStock": true },
+      { "id": "v047-3", "name": "400g Natural", "mrp": 195, "price": 179, "inStock": true }
+    ],
+    "tags": ["new", "under99"],
+    "highlights": {
+      "Type": "Greek Yogurt",
+      "Protein": "2x Regular",
+      "Probiotic": "Yes"
+    },
+    "description": "Thick and creamy Greek yogurt with live cultures.",
+    "compliance": {
+      "fssai": "10012345678947",
+      "seller": "Epigamia",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p048",
+    "name": "Oreo Biscuits",
+    "slug": "oreo-biscuits",
+    "brand": "Oreo",
+    "categoryId": "bakery-biscuits",
+    "images": [
+      "https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v048-1", "name": "120g", "mrp": 35, "price": 32, "inStock": true },
+      { "id": "v048-2", "name": "300g", "mrp": 85, "price": 79, "inStock": true }
+    ],
+    "tags": ["bestseller", "under99"],
+    "highlights": {
+      "Type": "Cream Biscuits",
+      "Flavor": "Vanilla Cream",
+      "Vegetarian": "Yes"
+    },
+    "description": "Twist, lick, dunk! The classic Oreo experience.",
+    "compliance": {
+      "fssai": "10012345678948",
+      "seller": "Mondelez India",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p049",
+    "name": "Red Bull Energy Drink",
+    "slug": "red-bull-energy-drink",
+    "brand": "Red Bull",
+    "categoryId": "cold-drinks",
+    "images": [
+      "https://images.pexels.com/photos/3679973/pexels-photo-3679973.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v049-1", "name": "250ml", "mrp": 125, "price": 115, "inStock": true }
+    ],
+    "tags": ["new"],
+    "highlights": {
+      "Type": "Energy Drink",
+      "Caffeine": "80mg",
+      "Taurine": "1000mg"
+    },
+    "description": "Red Bull gives you wings. Energy when you need it.",
+    "compliance": {
+      "fssai": "10012345678949",
+      "seller": "Red Bull India",
+      "address": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "p050",
+    "name": "Harpic Toilet Cleaner",
+    "slug": "harpic-toilet-cleaner",
+    "brand": "Harpic",
+    "categoryId": "cleaning",
+    "images": [
+      "https://images.pexels.com/photos/4239014/pexels-photo-4239014.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v050-1", "name": "500ml", "mrp": 115, "price": 105, "inStock": true },
+      { "id": "v050-2", "name": "1L", "mrp": 210, "price": 189, "inStock": true }
+    ],
+    "tags": ["bestseller"],
+    "highlights": {
+      "Type": "Toilet Cleaner",
+      "Kills Germs": "99.9%",
+      "Formula": "10x Power"
+    },
+    "description": "Powerful toilet cleaner that kills germs and removes stains.",
+    "compliance": {
+      "fssai": "10012345678950",
+      "seller": "Reckitt Benckiser",
+      "address": "Gurgaon, Haryana"
+    }
+  },
+  {
+    "id": "p051",
+    "name": "Fresh Coriander",
+    "slug": "fresh-coriander",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v051-1", "name": "100g bunch", "mrp": 15, "price": 12, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Fresh Herbs",
+      "Origin": "Local Farm",
+      "Shelf Life": "2-3 days"
+    },
+    "description": "Fresh coriander leaves for garnishing and cooking.",
+    "compliance": {
+      "fssai": "10012345678951",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Pune, Maharashtra"
+    }
+  },
+  {
+    "id": "p052",
+    "name": "Carrots",
+    "slug": "carrots",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v052-1", "name": "500g", "mrp": 35, "price": 29, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Red Carrots",
+      "Vitamin A": "Rich",
+      "Shelf Life": "7-10 days"
+    },
+    "description": "Fresh and crunchy red carrots, perfect for salads and cooking.",
+    "compliance": {
+      "fssai": "10012345678952",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Ooty, Tamil Nadu"
+    }
+  },
+  {
+    "id": "p053",
+    "name": "Cucumber",
+    "slug": "cucumber",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/37528/cucumber-salad-food-healthy-37528.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v053-1", "name": "500g (2-3 pcs)", "mrp": 30, "price": 25, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "English Cucumber",
+      "Hydrating": "96% Water",
+      "Shelf Life": "5-7 days"
+    },
+    "description": "Fresh and crisp cucumbers, perfect for salads.",
+    "compliance": {
+      "fssai": "10012345678953",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Bangalore, Karnataka"
+    }
+  },
+  {
+    "id": "p054",
+    "name": "Garlic",
+    "slug": "garlic",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v054-1", "name": "250g", "mrp": 55, "price": 45, "inStock": true }
+    ],
+    "tags": ["under99"],
+    "highlights": {
+      "Type": "Fresh Garlic",
+      "Origin": "Madhya Pradesh",
+      "Shelf Life": "15-20 days"
+    },
+    "description": "Fresh garlic bulbs for flavoring your dishes.",
+    "compliance": {
+      "fssai": "10012345678954",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Indore, MP"
+    }
+  },
+  {
+    "id": "p055",
+    "name": "Ginger Fresh",
+    "slug": "ginger-fresh",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/161556/ginger-plant-asia-rhizome-161556.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v055-1", "name": "200g", "mrp": 40, "price": 35, "inStock": true }
+    ],
+    "tags": ["under99"],
+    "highlights": {
+      "Type": "Fresh Ginger",
+      "Origin": "Kerala",
+      "Shelf Life": "10-15 days"
+    },
+    "description": "Fresh ginger root for cooking and tea.",
+    "compliance": {
+      "fssai": "10012345678955",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Kochi, Kerala"
+    }
+  },
+  {
+    "id": "p056",
+    "name": "Green Chillies",
+    "slug": "green-chillies",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/1374651/pexels-photo-1374651.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v056-1", "name": "100g", "mrp": 15, "price": 12, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Fresh Chillies",
+      "Heat Level": "Medium",
+      "Shelf Life": "5-7 days"
+    },
+    "description": "Fresh green chillies to spice up your cooking.",
+    "compliance": {
+      "fssai": "10012345678956",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Guntur, AP"
+    }
+  },
+  {
+    "id": "p057",
+    "name": "Lemon",
+    "slug": "lemon",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/1414110/pexels-photo-1414110.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v057-1", "name": "4 pcs", "mrp": 20, "price": 16, "inStock": true },
+      { "id": "v057-2", "name": "250g (8-10 pcs)", "mrp": 40, "price": 32, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Fresh Lemon",
+      "Vitamin C": "High",
+      "Shelf Life": "7-10 days"
+    },
+    "description": "Fresh and juicy lemons for cooking and drinks.",
+    "compliance": {
+      "fssai": "10012345678957",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Andhra Pradesh"
+    }
+  },
+  {
+    "id": "p058",
+    "name": "Watermelon",
+    "slug": "watermelon",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/1313267/pexels-photo-1313267.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v058-1", "name": "1 whole (~2-3kg)", "mrp": 90, "price": 75, "inStock": true }
+    ],
+    "tags": ["under99", "fresh"],
+    "highlights": {
+      "Type": "Seedless Watermelon",
+      "Hydrating": "92% Water",
+      "Shelf Life": "3-5 days"
+    },
+    "description": "Sweet and refreshing seedless watermelon.",
+    "compliance": {
+      "fssai": "10012345678958",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Karnataka"
+    }
+  },
+  {
+    "id": "p059",
+    "name": "Mango Alphonso",
+    "slug": "mango-alphonso",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v059-1", "name": "1 kg (4-5 pcs)", "mrp": 450, "price": 399, "inStock": true }
+    ],
+    "tags": ["new", "bestseller"],
+    "highlights": {
+      "Type": "Alphonso Mango",
+      "Origin": "Ratnagiri",
+      "Shelf Life": "3-5 days"
+    },
+    "description": "Premium Ratnagiri Alphonso mangoes - the king of mangoes.",
+    "compliance": {
+      "fssai": "10012345678959",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Ratnagiri, Maharashtra"
+    }
+  },
+  {
+    "id": "p060",
+    "name": "Grapes Green",
+    "slug": "grapes-green",
+    "brand": "Farm Fresh",
+    "categoryId": "fruits-vegetables",
+    "images": [
+      "https://images.pexels.com/photos/60021/grapes-wine-fruit-vines-60021.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": [
+      { "id": "v060-1", "name": "500g", "mrp": 85, "price": 69, "inStock": true }
+    ],
+    "tags": ["fresh", "under99"],
+    "highlights": {
+      "Type": "Seedless Green Grapes",
+      "Taste": "Sweet",
+      "Shelf Life": "5-7 days"
+    },
+    "description": "Sweet and juicy seedless green grapes.",
+    "compliance": {
+      "fssai": "10012345678960",
+      "seller": "Fresh Farms Pvt Ltd",
+      "address": "Nashik, Maharashtra"
+    }
+  }
+]

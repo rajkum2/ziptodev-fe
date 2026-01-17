@@ -1,0 +1,56 @@
+[
+  {
+    "id": "shelf-top-deals",
+    "title": "Top Deals",
+    "subtitle": "Best prices on popular items",
+    "type": "products",
+    "categorySlug": null,
+    "tags": ["bestseller"],
+    "productIds": ["p001", "p006", "p011", "p018", "p015", "p020", "p022", "p016"]
+  },
+  {
+    "id": "shelf-fresh-picks",
+    "title": "Fresh Picks",
+    "subtitle": "Farm to table freshness",
+    "type": "products",
+    "categorySlug": "fruits-vegetables",
+    "tags": ["fresh"],
+    "productIds": ["p001", "p002", "p003", "p036", "p037", "p038", "p051", "p052"]
+  },
+  {
+    "id": "shelf-snacks",
+    "title": "Snacks & Munchies",
+    "subtitle": "Crunchy delights",
+    "type": "products",
+    "categorySlug": "snacks-munchies",
+    "tags": null,
+    "productIds": ["p011", "p012", "p013", "p014", "p048"]
+  },
+  {
+    "id": "shelf-dairy",
+    "title": "Dairy & Breakfast",
+    "subtitle": "Start your day right",
+    "type": "products",
+    "categorySlug": "dairy-breakfast",
+    "tags": null,
+    "productIds": ["p006", "p007", "p008", "p009", "p010", "p045", "p046", "p047"]
+  },
+  {
+    "id": "shelf-under99",
+    "title": "Under Rs 99",
+    "subtitle": "Budget-friendly finds",
+    "type": "products",
+    "categorySlug": null,
+    "tags": ["under99"],
+    "productIds": ["p003", "p011", "p012", "p015", "p018", "p026", "p027", "p033"]
+  },
+  {
+    "id": "shelf-instant",
+    "title": "Quick Bites",
+    "subtitle": "Ready in minutes",
+    "type": "products",
+    "categorySlug": "instant-food",
+    "tags": null,
+    "productIds": ["p018", "p019", "p044"]
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "topNavCategories": [
+    {
+      "id": "all",
+      "label": "All",
+      "slug": "all",
+      "route": "/"
+    },
+    {
+      "id": "fruits-vegetables",
+      "label": "Fresh",
+      "slug": "fruits-vegetables",
+      "route": "/c/fruits-vegetables"
+    },
+    {
+      "id": "dairy-breakfast",
+      "label": "Dairy",
+      "slug": "dairy-breakfast",
+      "route": "/c/dairy-breakfast"
+    },
+    {
+      "id": "snacks-munchies",
+      "label": "Snacks",
+      "slug": "snacks-munchies",
+      "route": "/c/snacks-munchies"
+    },
+    {
+      "id": "cold-drinks-juices",
+      "label": "Drinks",
+      "slug": "cold-drinks-juices",
+      "route": "/c/cold-drinks-juices"
+    },
+    {
+      "id": "bakery-biscuits",
+      "label": "Bakery",
+      "slug": "bakery-biscuits",
+      "route": "/c/bakery-biscuits"
+    },
+    {
+      "id": "instant-frozen-food",
+      "label": "Instant",
+      "slug": "instant-frozen-food",
+      "route": "/c/instant-frozen-food"
+    },
+    {
+      "id": "tea-coffee-health",
+      "label": "Beverages",
+      "slug": "tea-coffee-health",
+      "route": "/c/tea-coffee-health"
+    }
+  ],
+  "popularSearches": {
+    "products": [
+      "Milk",
+      "Bread",
+      "Eggs",
+      "Bananas",
+      "Tomatoes",
+      "Onions",
+      "Potatoes",
+      "Paneer",
+      "Curd",
+      "Butter",
+      "Rice",
+      "Atta",
+      "Oil",
+      "Biscuits",
+      "Chips"
+    ],
+    "brands": [
+      "Amul",
+      "Mother Dairy",
+      "Britannia",
+      "Parle",
+      "Nestle",
+      "Coca-Cola",
+      "Pepsi",
+      "Haldiram's",
+      "Cadbury",
+      "Maggi",
+      "Kellogg's",
+      "McCain",
+      "Lay's"
+    ],
+    "categories": [
+      "Fresh Vegetables",
+      "Fresh Fruits",
+      "Dairy Products",
+      "Breakfast Items",
+      "Snacks",
+      "Beverages",
+      "Bakery",
+      "Instant Food",
+      "Health & Nutrition",
+      "Personal Care",
+      "Cleaning Essentials",
+      "Baby Care"
+    ]
+  }
+}

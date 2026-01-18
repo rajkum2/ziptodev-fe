@@ -25,21 +25,52 @@ A production-ready, mobile-first React application for quick commerce, inspired 
 - **Framer Motion** for animations
 - **Lucide React** for icons
 
+## Prerequisites
+
+- Node.js **18+** (Node 20 LTS recommended for Vite 5)
+- npm **9+** (bundled with recent Node versions)
+- Optional: backend/API at `VITE_API_URL` and chat service at `VITE_API_BASE_URL`
+
 ## Getting Started
 
-```bash
-# Install dependencies
-npm install
+1. Install dependencies: `npm install`
+2. Configure environment (optional if you are okay with defaults): see **Environment Variables**
+3. Start the dev server: `npm run dev` (Vite serves on http://localhost:5173)
+4. Run quality checks (recommended):
+   - Lint: `npm run lint`
+   - Type check: `npm run typecheck`
+5. Build & preview production bundle:
+   - Build: `npm run build`
+   - Preview: `npm run preview`
 
-# Start development server
-npm run dev
+## Environment Variables
 
-# Build for production
-npm run build
+Create a `.env` file in the project root if you want to override defaults:
 
-# Preview the production build
-npm run preview
 ```
+VITE_API_URL=http://localhost:3008/api      # Commerce/product/category endpoints
+VITE_API_BASE_URL=http://localhost:5000     # Chat service base URL
+```
+
+- `VITE_API_URL` powers `src/api/endpoints.ts` via `src/api/client.ts` for categories, products, banners, shelves, search, recommendations, and serviceability.
+- `VITE_API_BASE_URL` powers `src/api/chat.ts` for chat and health checks; default is `http://localhost:5000`.
+- If the chat service is down, the UI shows a fallback reply and keeps history in local storage.
+
+## Available Scripts
+
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Start the Vite dev server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint across the repo |
+| `npm run typecheck` | Run TypeScript type checks (`tsconfig.app.json`) |
+
+## API & Data Sources
+
+- The app expects a backend implementing the endpoints referenced in `src/api/endpoints.ts` (e.g., `/categories`, `/products`, `/products/:slug`, `/products/recommendations/:id`, `/banners`, `/shelves`, `/products/search`). Responses should follow the shapes defined in `src/api/client.ts`: `{ success: boolean, data: T, message?: string }` and, for paginated results, include `pagination`.
+- **No backend yet?** For a UI-only demo, import from `src/api/endpoints-dummy.ts` (which reads from `src/mockData/`) instead of `src/api/endpoints.ts`, or temporarily re-export the dummy functions from `endpoints.ts` while developing the frontend.
+- Mock data lives in `src/mockData/` and can be edited to adjust the catalog, banners, shelves, and footer content.
 
 ## Project Structure
 
@@ -118,29 +149,20 @@ All data is stored in `src/mockData/` as JSON files. The API adapter layer (`src
 
 ## Local Support Chat (Optional)
 
-The in-app chat calls a local API endpoint by default:
+The in-app chat calls the base URL defined by `VITE_API_BASE_URL` (default: `http://localhost:5000`):
 
-- **Endpoint**: `http://localhost:3008/api/chat/message`
+- **Chat message**: `${VITE_API_BASE_URL}/api/chat/message`
+- **Health check**: `${VITE_API_BASE_URL}/api/chat/health`
 - **Client**: `src/api/chat.ts`
 
 If the chat service is not running, the UI gracefully shows a fallback response and keeps the session history in local storage.
 
 ## Integrating Real APIs
 
-Replace mock calls in `src/api/endpoints.ts` with actual API calls:
-
-```typescript
-// Before (mock)
-export async function getProducts(): Promise<Product[]> {
-  return simulateApiCall(productsData as Product[]);
-}
-
-// After (real API)
-export async function getProducts(): Promise<Product[]> {
-  const response = await fetch('/api/products');
-  return response.json();
-}
-```
+`src/api/endpoints.ts` already targets real APIs through `src/api/client.ts`. Ensure your backend:
+- Serves the endpoints listed in **API & Data Sources**
+- Returns `{ success: boolean, data: T, message?: string }` (and `pagination` when paginated)
+- Supports CORS for the dev origin (http://localhost:5173 by default)
 
 ## State Management
 

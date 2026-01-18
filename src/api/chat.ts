@@ -3,6 +3,7 @@ export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
   timestamp: number;
+  messageId?: string;
   error?: boolean;
 }
 
@@ -22,6 +23,7 @@ export interface ChatRequest {
   context: ChatContext;
   mode?: 'chat' | 'rag';
   documentId?: string;
+  conversationId?: string;
 }
 
 export interface ChatCard {
@@ -32,6 +34,9 @@ export interface ChatResponse {
   replyText: string;
   cards?: ChatCard[];
   traceId: string;
+  conversationId?: string;
+  messageId?: string;
+  metadata?: unknown;
 }
 
 interface ChatApiPayload {
@@ -44,6 +49,9 @@ interface ChatApiPayload {
     provider?: string;
     model?: string;
     healthy?: boolean;
+    conversationId?: string;
+    messageId?: string;
+    metadata?: unknown;
   };
   replyText?: string;
   traceId?: string;
@@ -53,12 +61,15 @@ interface ChatApiPayload {
   provider?: string;
   model?: string;
   healthy?: boolean;
+  conversationId?: string;
+  messageId?: string;
+  metadata?: unknown;
 }
 
-const DEFAULT_API_BASE_URL = 'http://localhost:5000';
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || DEFAULT_API_BASE_URL;
-const CHAT_API_URL = `${API_BASE_URL}/api/chat/message`;
-const CHAT_HEALTH_URL = `${API_BASE_URL}/api/chat/health`;
+const BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const CHAT_API_URL = `${BASE}/api/chat/message`;
+const CHAT_HEALTH_URL = `${BASE}/api/chat/health`;
+export const CHAT_SOCKET_URL = import.meta.env.VITE_SOCKET_URL || BASE;
 const REQUEST_TIMEOUT = 45000; // 45 seconds for local AI models
 
 function generateTraceId(): string {
@@ -83,6 +94,18 @@ function resolveCards(payload: ChatApiPayload | null): ChatCard[] {
 
 function resolveReplyText(payload: ChatApiPayload | null): string | undefined {
   return payload?.data?.replyText || payload?.replyText;
+}
+
+function resolveConversationId(payload: ChatApiPayload | null): string | undefined {
+  return payload?.data?.conversationId || payload?.conversationId;
+}
+
+function resolveMessageId(payload: ChatApiPayload | null): string | undefined {
+  return payload?.data?.messageId || payload?.messageId;
+}
+
+function resolveMetadata(payload: ChatApiPayload | null): unknown {
+  return payload?.data?.metadata ?? payload?.metadata;
 }
 
 function resolveErrorMessage(payload: ChatApiPayload | null): string | undefined {
@@ -146,6 +169,9 @@ export async function sendChatMessage(payload: ChatRequest): Promise<ChatRespons
         resolveReplyText(data) || 'Assistant is currently unavailable. Please try again.',
       cards: resolveCards(data),
       traceId: resolveTraceId(data),
+      conversationId: resolveConversationId(data),
+      messageId: resolveMessageId(data),
+      metadata: resolveMetadata(data),
     };
   } catch (error) {
     console.error('Chat API error:', error);
@@ -178,6 +204,45 @@ export async function sendChatMessage(payload: ChatRequest): Promise<ChatRespons
       cards: [],
       traceId: generateTraceId(),
     };
+  }
+}
+
+export interface ChatHistoryMessage {
+  messageId?: string;
+  conversationId?: string;
+  role?: string;
+  content?: string;
+  message?: string;
+  createdAt?: string | number;
+  timestamp?: number;
+  metadata?: unknown;
+}
+
+export async function fetchConversationMessages(
+  conversationId: string,
+  limit = 50
+): Promise<ChatHistoryMessage[]> {
+  try {
+    const response = await fetch(
+      `${BASE}/api/chat/conversation/${encodeURIComponent(conversationId)}/messages?limit=${limit}`
+    );
+    const data = (await response.json().catch(() => null)) as
+      | { data?: ChatHistoryMessage[]; messages?: ChatHistoryMessage[] }
+      | ChatHistoryMessage[]
+      | null;
+
+    if (!response.ok) {
+      return [];
+    }
+
+    if (Array.isArray(data)) {
+      return data;
+    }
+
+    return data?.data || data?.messages || [];
+  } catch (error) {
+    console.error('Chat history fetch error:', error);
+    return [];
   }
 }
 

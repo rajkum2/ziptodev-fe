@@ -21,7 +21,7 @@ export interface ChatRequest {
   userId: string | null;
   message: string;
   context: ChatContext;
-  mode?: 'chat' | 'rag';
+  mode?: 'chat' | 'rag' | 'auto';
   documentId?: string;
   conversationId?: string;
 }
@@ -116,7 +116,7 @@ export async function sendChatMessage(payload: ChatRequest): Promise<ChatRespons
   const preparedPayload: ChatRequest = {
     ...payload,
     sessionId: payload.sessionId?.trim() || generateSessionId(),
-    mode: payload.mode ?? 'chat',
+    mode: payload.mode ?? 'auto',  // 'auto' enables RAG when knowledge docs are available
   };
 
   try {
